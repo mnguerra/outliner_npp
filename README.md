@@ -2,12 +2,13 @@
 
 ## Overview
 
-This project provides a very simple user-defined language file for Notepad++ that does some basic syntax highlighting for an outliner mode.
+This project provides a very simple user-defined language file for Notepad++ that does syntax highlighting for an outliner mode.
 It is designed to be used with the Twilight theme, but with a little tweaking you can use it with whatever you want.
 
-## Usage
 
-Notepad++ allows you to add new languages by adding language definitions to a userDefineLang.xml file. Add the Outliner definition like this:
+## Installation
+
+Add the Outliner definition like this:
 
 1. Download the [Ouliner language definition file](https://raw.githubusercontent.com/mnguerra/outliner_npp/master/outliner_npp.xml)
    from GitHub to your computer.
@@ -22,6 +23,12 @@ Notepad++ allows you to add new languages by adding language definitions to a us
 6. Save `userDefineLang.xml`.
 7. Restart Notepad++.
 
+
+## Usage
+
+
+You can take a look at sample files in [english](https://raw.githubusercontent.com/mnguerra/outliner_npp/master/sample_file_english.notes), [catalan](https://raw.githubusercontent.com/mnguerra/outliner_npp/master/sample_file_catalan.notes) or [spanish](https://raw.githubusercontent.com/mnguerra/outliner_npp/master/sample_file_spanish.notes).
+Notepad++ will apply this outliner mode for '.notes' file extension.
 
 ## Copyright and License
 
